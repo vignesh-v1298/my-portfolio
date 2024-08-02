@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Font Awesome CSS-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+
+    <!--Main CSS-->
+    <link rel="stylesheet" href="index.css" />
+    <title>VIGNESH V Portfolio</title>
+  </head>
+  <body>
+    <!--Header Section-->
+    <header class="header">
+      <a href="#home" class="logo">Portfolio</a>
+
+      <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!--Main  Section-->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hi Myself</h3>
+        <h1>VIGNESH V</h1>
+        <h3>Front End Developer</h3>
+        <p>I am a Front End Developer. Currently Looking for the jobs</p>
+        <div class="social-media">
+          <a href="https://www.linkedin.com/in/vignesh-v-05a7621a4/"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a href="mailto:vignesh1298@gmai.com"
+            ><i class="fa-solid fa-inbox"></i
+          ></a>
+        </div>
+        <a
+          href="https://drive.google.com/file/d/1a6RV6NTlqWjEs8WEmqxU5svZHPy8f4-9/view?usp=sharing"
+          class="btn"
+          >Download CV</a
+        >
+      </div>
+      <div class="home-img">
+        <img src="images/My_Image.JPG" />
+      </div>
+    </section>
+
+    <!-- About Section -->
+
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="images/My_Image.JPG" alt="" />
+      </div>
+
+      <div class="about-content">
+        <h2 class="heading">About<span>Me</span></h2>
+        <p>Hello, My name is VIGNESH V.</p>
+        <p>
+          I am a Front End Developer from Mysore, Karnataka, India.
+          <br /><br />Currently Unemployed and looking for the jobs in the Web
+          Development. <br />I love working on variety of front end technologies
+          and updating my skills to build highly performant applications that
+          solve real-world problems and provide user with an awesome experience.
+        </p>
+        <a href="#portfolio" class="btn">Read More</a>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">Latest <span>Projects</span></h2>
+
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img src="images/Image1.jpg" alt="project 1" />
+          <div class="portfolio-layer">
+            <h4>React JS</h4>
+            <p>Static website for Displaying the movies through the API</p>
+            <a href="https://github.com/vignesh-v1298?tab=repositories">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me</span></h2>
+
+      <form action="#">
+        <div class="input-box">
+          <input type="text" placeholder="Full Name" />
+          <input type="email" placeholder="Email Address" />
+        </div>
+
+        <div class="input-box">
+          <input type="number" placeholder="Mobile Number" />
+          <input type="text" placeholder="Email Subject" />
+        </div>
+
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Your Message"
+        ></textarea>
+        <input type="submit" value="Send Message" class="btn" />
+      </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2024 | All rights Reserved</p>
+      </div>
+
+      <div class="footer-icontop">
+        <a href="#home"><i class="fa-solid fa-arrow-up"></i></a>
+      </div>
+    </footer>
+
+    <!-- MAIN JS-->
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="index.js"></script>
+  </body>
+</html>
